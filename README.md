@@ -42,7 +42,13 @@ $ npm run start
 
 ## 🛠 Tecnologias Utilizadas
 
+TypeScript
 
+Express
+
+Node
+
+MySQL
 
 ---
 

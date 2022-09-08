@@ -1,0 +1,37 @@
+### Endpoint de teste
+GET http://localhost:3003/ping
+
+### Signup
+POST http://localhost:3003/users/signup
+Content-Type: application/json
+
+{
+    "nickname": "julia",
+    "email": "julia@email.com",
+    "password": "testando"
+}
+
+### login
+POST http://localhost:3003/users/login
+Content-Type: application/json
+
+{
+    "email": "astrodev@gmail.com",
+    "password": "bananinha"
+}
+
+### delete user
+DELETE http://localhost:3003/delete/7079b8e4-95cd-48aa-82a9-77454e94b789
+
+### Get all recipes
+GET http://localhost:3003/recipes
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImJiOWI3ZWU4LWFlNGItNGJkMS05YmQ2LWU3ZTIxNTk0Mzk5YiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTY1OTkzMjQ3OSwiZXhwIjoxNjYwMDE4ODc5fQ.35QNf9GduYXfa4X9HE8t8GtbNykav5glaFF9iqIS9Hg
+
+### post recipe
+POST http://localhost:3003/users/createrecipe
+
+### put recipe
+PUT http://localhost:3003/users/recipes/:id
+
+### delete recipe
+DELETE http://localhost:3003/users/recipes/:id
